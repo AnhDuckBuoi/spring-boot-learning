@@ -16,4 +16,5 @@ public class UserProfileReponse {
     String lastName;
     LocalDate dob;
     String city;
+    String userId;
 }
