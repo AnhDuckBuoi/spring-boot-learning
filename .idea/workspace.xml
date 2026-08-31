@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3921a4af-bd11-40d3-899b-b23c2e6cb9ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/controller/UserProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/dto/request/UserProfileCreationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/dto/response/UserProfileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/entity/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/mapper/UserProfileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/repository/UserProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookteria-259aca309b241b2e9d219552bb097495a26ad269/profile-service/src/main/java/com/devteria/profile/service/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/configuration/AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/configuration/WebClientConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/dto/request/IntrospectRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/dto/response/IntrospectResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/repository/IdentityClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/devteria/gateway/service/IdentityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookteria.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/ChatApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/configuration/AuthenticationRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/controller/ChatMessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/controller/ConversationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/request/ChatMessageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/request/ConversationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/response/ChatMessageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/response/ConversationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/dto/response/UserProfileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/entity/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/entity/Conversation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/entity/ParticipantInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/mapper/ChatMessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/mapper/ConversationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/repository/ChatMessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/repository/ConversationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/repository/httpclient/ProfileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/service/ChatMessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/java/com/devteria/chat/service/ConversationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/FileServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/dto/FileInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/dto/PageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/dto/response/FileData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/dto/response/FileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/entity/FileMgmt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/mapper/FileMgmtMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/repository/FileMgmtRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/repository/FileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/devteria/file/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/event/dto/NotificationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/IdentityServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/configuration/ApplicationInitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/configuration/AuthenticationRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/constant/PredefinedRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/controller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/controller/PermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/IntrospectRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/LogoutRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/PermissionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/ProfileCreationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/RefreshRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/RoleRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/UserCreationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/request/UserUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/IntrospectResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/PermissionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/RoleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/UserProfileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/dto/response/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/entity/InvalidatedToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/entity/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/mapper/PermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/mapper/ProfileMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/repository/InvalidatedTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/repository/PermissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/repository/httpclient/ProfileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/validator/DobConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/java/com/devteria/identity/validator/DobValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/test/java/com/devteria/identity/IdentityServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/test/java/com/devteria/identity/controller/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/test/java/com/devteria/identity/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/identity-service/src/test/resources/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/event/dto/NotificationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/NotificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/controller/NotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/request/EmailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/request/Recipient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/request/SendEmailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/request/Sender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/dto/response/EmailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/repository/httpclient/EmailClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/devteria/notification/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/PostServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/dto/PageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/dto/request/PostRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/dto/response/PostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/dto/response/UserProfileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/mapper/PostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/repository/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/repository/httpclient/ProfileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/service/DateTimeFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/java/com/devteria/post/service/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/ProfileServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/configuration/AuthenticationRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/configuration/CustomJwtDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/configuration/FeignConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/controller/InternalUserProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/controller/UserProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/request/ProfileCreationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/request/SearchUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/request/UpdateProfileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/response/FileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/dto/response/UserProfileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/entity/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/mapper/UserProfileMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/repository/UserProfileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/repository/httpclient/FileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/java/com/devteria/profile/service/UserProfileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/public/logo/devteria-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/components/Post.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/components/SideMenu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/configurations/configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/configurations/httpClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/pages/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/pages/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/pages/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/pages/Scene.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/routes/AppRoutes.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/services/authenticationService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/services/localStorageService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/services/postService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/services/userService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="40fa6b3b-8ddc-4fad-ae48-e9b37f538be9" value="" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/bookteria-start" value="c73ea3e8cd9b138a7d064cff9af40a11cc4997d0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AnhDuckBuoi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devteria/bookteria.git&quot;,
+    &quot;accountId&quot;: &quot;ce4c82e9-00f0-4e23-a3bb-e24542d35e71&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IdAUWzl2mab6AEESWLlRI3Mri4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.IdentityServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProfileServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devteria.profile.dto.response" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProfileServiceApplication">
+    <configuration name="IdentityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="identity-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devteria.identity.IdentityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="profile-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devteria.profile.ProfileServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3921a4af-bd11-40d3-899b-b23c2e6cb9ea" name="Changes" comment="" />
+      <created>1788084090382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788084090382</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/course/upload-file-part1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
