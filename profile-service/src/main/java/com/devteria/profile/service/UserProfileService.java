@@ -27,19 +27,19 @@ public class UserProfileService {
         UserProfile userProfile = userProfileMapper.toUserProfile(request);
         userProfile = userProfileRepository.save(userProfile);
 
-        return userProfileMapper.toUserProfileReponse(userProfile);
+        return userProfileMapper.toUserProfileResponse(userProfile);
     }
 
     public UserProfileResponse getProfile(String id) {
         UserProfile userProfile =
                 userProfileRepository.findById(id).orElseThrow(() -> new RuntimeException("Profile not found"));
 
-        return userProfileMapper.toUserProfileReponse(userProfile);
+        return userProfileMapper.toUserProfileResponse(userProfile);
     }
 
     public List<UserProfileResponse> getAllProfiles() {
         var profiles = userProfileRepository.findAll();
 
-        return profiles.stream().map(userProfileMapper::toUserProfileReponse).toList();
+        return profiles.stream().map(userProfileMapper::toUserProfileResponse).toList();
     }
 }
