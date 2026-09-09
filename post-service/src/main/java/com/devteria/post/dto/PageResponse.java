@@ -16,10 +16,10 @@ import java.util.List;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class PageResponse<T> {
+    int currentPage;
     int totalPages;
     int pageSize;
     long totalElements;
-
     @Builder.Default
     private List<T> data = Collections.emptyList();
 }
