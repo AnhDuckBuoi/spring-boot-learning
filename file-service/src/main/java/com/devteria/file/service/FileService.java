@@ -1,12 +1,17 @@
 package com.devteria.file.service;
 
+import com.devteria.file.dto.response.FileData;
 import com.devteria.file.dto.response.FileResponse;
+import com.devteria.file.entity.FileMgmt;
+import com.devteria.file.exception.AppException;
+import com.devteria.file.exception.ErrorCode;
 import com.devteria.file.mapper.FileMgmtMapper;
 import com.devteria.file.repository.FileMgmtRepository;
 import com.devteria.file.repository.FileRepository;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import org.springframework.core.io.Resource;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -44,5 +49,11 @@ public class FileService {
                 .originalFileName(file.getOriginalFilename())
                 .url(fileInfo.getUrl())
                 .build();
+    }
+    public FileData download(String fileName) throws IOException {
+        FileMgmt fileMgmt = fileMgmtRepository.findById(fileName)
+                .orElseThrow(()-> new AppException(ErrorCode.NOT_FOUND));
+        Resource resource =  fileRepository.read(fileMgmt);
+        return new FileData(fileMgmt.getContentType(), resource);
     }
 }
