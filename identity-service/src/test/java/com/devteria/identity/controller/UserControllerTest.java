@@ -55,9 +55,6 @@ public class UserControllerTest {
         userResponse = UserResponse.builder()
                 .id("cf0600f538b3")
                 .username("john")
-                .firstName("John")
-                .lastName("Doe")
-                .dob(dob)
                 .build();
     }
 
